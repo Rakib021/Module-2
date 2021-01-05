@@ -1,0 +1,150 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+/*heder er moddhe lekha golo maajhkane niye jawar jonno*/
+header{
+    width:960px;
+    height: auto;
+    margin:0 auto;
+}
+.nav{
+    width:960px;
+    height:auto;
+
+    background-color: black;
+    
+}
+.nav ul li{
+    list-style:none;
+    display:inline-block;
+    color:aliceblue;
+    position: relative;
+
+}
+.nav ul li a{
+    display:block;
+    color:aliceblue;
+    font-size:20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px 35px;
+    text-decoration: none;
+    font-family:sans-serif;
+}
+.nav ul li a:hover{
+    color:brown;
+    background-color: crimson;
+
+}
+.nav ul li ul{
+    position: absolute;
+    background-color: black;
+    left:-9999px
+}
+.nav ul li:hover ul{
+    left:0px;
+
+}
+.nav ul li ul li{
+    width:200px;
+    border:1px solid white;
+}
+/* End Navbar*/
+.banner{
+    height:50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-text{
+    padding:100px;
+    text-align:center;
+}
+.banner-text button{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding:20px;
+    border:0;
+    background-color: tomato;
+    color:blanchedalmond;
+
+}
+/*EnD of HeADER PART*/
+.about-logo img{
+    width:300px;
+    height:auto;
+    display: block;
+    margin:0px 10px;
+    margin-bottom: 10px;
+    
+}
+.about-text{
+    width:520px;
+    height:auto;
+    padding :0px 20px;
+    margin:20px;
+    
+}
+.row{
+    overflow: auto;
+}
+.col {
+    float: left;
+}
+.about-section{
+    background-color: #DCE7E5;
+    padding:40px 0px;
+    margin-top: 20px;
+}
+.about-text h2{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 3px solid white;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.about-text p{
+    font-size: 16px;
+    color:gray;
+    line-height: 20px;
+}
+.title{
+    width:220px;
+    height:auto;
+    margin:0 auto;
+}
+.title h2{
+    font-size:20px;
+    font-weight: bold;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    border-bottom:2px solid white;
+    text-align:center;
+    margin-bottom:30px;
+    font-family:'Courier New', Courier, monospace;
+}
+.service{
+    width:220px;
+    height:auto;
+    border:1px solid #fff;
+    text-align: center;
+}
+.service-section{
+    background: #CBAB48;
+}
+.serve-icon i{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:white;
+    transition:.5s;
+}
+.serve-iconn i:hover{
+    color:crimson;
+    transform: scale(.8);
+
+}
